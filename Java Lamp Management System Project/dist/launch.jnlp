@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Administrator/Documents/NetBeansProjects/Lamp%20Management%20System%20Project/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Lamp Management System Project</title>
+        <vendor>Administrator</vendor>
+        <homepage href=""/>
+        <description>Lamp Management System Project</description>
+        <description kind="short">Lamp Management System Project</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Lamp_Management_System_Project.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <application-desc main-class="login">
+    </application-desc>
+</jnlp>
